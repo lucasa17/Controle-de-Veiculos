@@ -146,9 +146,10 @@
             // 
             button3.Location = new Point(599, 81);
             button3.Name = "button3";
-            button3.Size = new Size(28, 26);
+            button3.Size = new Size(26, 26);
             button3.TabIndex = 21;
             button3.Text = "+";
+            button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
@@ -212,6 +213,7 @@
             txtmodelo.Name = "txtmodelo";
             txtmodelo.Size = new Size(510, 25);
             txtmodelo.TabIndex = 14;
+            txtmodelo.TextChanged += txtmodelo_TextChanged;
             // 
             // txtplaca
             // 
@@ -665,12 +667,12 @@
             // 
             linkLabel1.ActiveLinkColor = Color.LightGray;
             linkLabel1.AutoSize = true;
-            linkLabel1.BackColor = SystemColors.ControlDark;
+            linkLabel1.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel1.Cursor = Cursors.Hand;
             linkLabel1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel1.ForeColor = Color.Black;
             linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
-            linkLabel1.LinkColor = Color.Black;
+            linkLabel1.LinkColor = Color.FromArgb(169, 179, 206);
             linkLabel1.Location = new Point(12, 77);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(97, 25);
@@ -683,12 +685,12 @@
             // 
             linkLabel2.ActiveLinkColor = Color.LightGray;
             linkLabel2.AutoSize = true;
-            linkLabel2.BackColor = SystemColors.ControlDark;
+            linkLabel2.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel2.Cursor = Cursors.Hand;
             linkLabel2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel2.ForeColor = Color.Black;
             linkLabel2.LinkBehavior = LinkBehavior.HoverUnderline;
-            linkLabel2.LinkColor = Color.Black;
+            linkLabel2.LinkColor = Color.FromArgb(169, 179, 206);
             linkLabel2.Location = new Point(12, 134);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(71, 25);
@@ -701,12 +703,12 @@
             // 
             linkLabel3.ActiveLinkColor = Color.LightGray;
             linkLabel3.AutoSize = true;
-            linkLabel3.BackColor = SystemColors.ControlDark;
+            linkLabel3.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel3.Cursor = Cursors.Hand;
             linkLabel3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel3.ForeColor = Color.Black;
             linkLabel3.LinkBehavior = LinkBehavior.HoverUnderline;
-            linkLabel3.LinkColor = Color.Black;
+            linkLabel3.LinkColor = Color.FromArgb(169, 179, 206);
             linkLabel3.Location = new Point(12, 195);
             linkLabel3.Name = "linkLabel3";
             linkLabel3.Size = new Size(75, 25);
@@ -717,7 +719,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = SystemColors.ControlDark;
+            pictureBox1.BackColor = Color.FromArgb(11, 19, 43);
             pictureBox1.Location = new Point(-8, -1);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(152, 382);
@@ -727,7 +729,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = SystemColors.ControlDark;
+            pictureBox2.BackColor = Color.FromArgb(169, 179, 206);
             pictureBox2.Location = new Point(138, -1);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(660, 375);
@@ -747,7 +749,7 @@
             Controls.Add(tabControl1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            KeyPreview = true;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Controle de veículos";

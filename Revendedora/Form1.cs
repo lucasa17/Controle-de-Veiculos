@@ -41,7 +41,7 @@ namespace Revendedora
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            tabControl1.SelectedTab = tabControl1.TabPages[4];
+            tabControl1.SelectedTab = tabControl1.TabPages[3];
 
         }
 
@@ -312,6 +312,16 @@ namespace Revendedora
         {
 
             tabControl1.SelectedTab = tabControl1.TabPages[3];
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtmodelo_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

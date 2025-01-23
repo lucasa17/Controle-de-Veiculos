@@ -1,12 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luisa\\source\\repos\\Revendedora\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\41279517883\\source\\repos\\Controle-de-veiculos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\controle-de-veiculos\\revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\controle-de-veiculos\\revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Controle-de-veiculos\\Revendedora\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Revendedora\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Controle-de-veiculos\\Revendedora\\Cadastro.cs [Projeto]",
+              "RelativeToolTip": "Revendedora\\Cadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:46:25.431Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Controle-de-veiculos\\Revendedora\\Form1.cs",
+              "RelativeDocumentMoniker": "Revendedora\\Form1.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Controle-de-veiculos\\Revendedora\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Revendedora\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:12:29.162Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

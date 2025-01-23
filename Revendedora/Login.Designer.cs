@@ -44,7 +44,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.WhiteSmoke;
+            pictureBox1.BackColor = Color.FromArgb(169, 179, 206);
             pictureBox1.Location = new Point(210, 33);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(360, 368);
@@ -54,7 +54,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.WhiteSmoke;
+            pictureBox2.BackColor = Color.FromArgb(169, 179, 206);
             pictureBox2.Image = Properties.Resources.png_transparent_login_computer_icons_avatar_icon_monochrome_black_silhouette_thumbnail__1_;
             pictureBox2.Location = new Point(318, 87);
             pictureBox2.Name = "pictureBox2";
@@ -66,7 +66,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.WhiteSmoke;
+            label1.BackColor = Color.FromArgb(169, 179, 206);
             label1.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(218, 235);
             label1.Name = "label1";
@@ -77,7 +77,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.WhiteSmoke;
+            label2.BackColor = Color.FromArgb(169, 179, 206);
             label2.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(218, 273);
             label2.Name = "label2";
@@ -116,7 +116,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.WhiteSmoke;
+            label3.BackColor = Color.FromArgb(169, 179, 206);
             label3.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(329, 357);
             label3.Name = "label3";
@@ -127,7 +127,7 @@
             // linkcadastro
             // 
             linkcadastro.AutoSize = true;
-            linkcadastro.BackColor = Color.WhiteSmoke;
+            linkcadastro.BackColor = Color.FromArgb(169, 179, 206);
             linkcadastro.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkcadastro.Location = new Point(352, 374);
             linkcadastro.Name = "linkcadastro";
@@ -140,7 +140,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = Color.WhiteSmoke;
+            label4.BackColor = Color.FromArgb(169, 179, 206);
             label4.Font = new Font("Georgia", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(352, 45);
             label4.Name = "label4";
@@ -152,7 +152,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
+            BackColor = Color.FromArgb(11, 19, 43);
             ClientSize = new Size(783, 429);
             Controls.Add(label4);
             Controls.Add(linkcadastro);
