@@ -93,6 +93,7 @@
             label8 = new Label();
             label6 = new Label();
             tabPage4 = new TabPage();
+            button8 = new Button();
             label25 = new Label();
             txtcomprador = new TextBox();
             gridvendas = new DataGridView();
@@ -102,7 +103,6 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             linkLabel4 = new LinkLabel();
-            button8 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -792,6 +792,17 @@
             tabPage4.Text = "Vendas";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            button8.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(519, 30);
+            button8.Name = "button8";
+            button8.Size = new Size(100, 33);
+            button8.TabIndex = 10;
+            button8.Text = "Deletar";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
             // label25
             // 
             label25.AutoSize = true;
@@ -911,17 +922,6 @@
             linkLabel4.TabStop = true;
             linkLabel4.Text = "Vendas";
             linkLabel4.LinkClicked += linkLabel4_LinkClicked_1;
-            // 
-            // button8
-            // 
-            button8.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.Location = new Point(519, 30);
-            button8.Name = "button8";
-            button8.Size = new Size(100, 33);
-            button8.TabIndex = 10;
-            button8.Text = "Deletar";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
             // 
             // Form1
             // 

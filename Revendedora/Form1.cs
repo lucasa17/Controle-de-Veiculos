@@ -65,6 +65,14 @@ namespace Revendedora
 
         }
 
+        void limpaCamposVendas()
+        {
+
+            txtnomecomp.Clear();
+            decvalvenda.Clear();
+
+        }
+
         private void botaoCadastro_Click(object sender, EventArgs e)
         {
 
@@ -386,6 +394,7 @@ namespace Revendedora
 
             listaConectaVenda();
             listaConectaVeiculo();
+            limpaCamposVendas();
 
 
             tabControl1.SelectedTab = tabControl1.TabPages[5];

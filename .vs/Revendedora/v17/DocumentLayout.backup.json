@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|C:\\Users\\41279517883\\source\\repos\\Revendedora\\revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\conectabanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\conectabanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,16 +34,16 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs",
               "RelativeDocumentMoniker": "Revendedora\\Form1.cs",
-              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs",
-              "RelativeToolTip": "Revendedora\\Form1.cs",
-              "ViewState": "AgIAAL0BAAAAAAAAAAAAAMsBAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs*",
+              "RelativeToolTip": "Revendedora\\Form1.cs*",
+              "ViewState": "AgIAAHYBAAAAAAAAAADgv4wBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T13:17:35.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Login.cs",
               "RelativeDocumentMoniker": "Revendedora\\Login.cs",
@@ -60,25 +56,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "conectaBanco.cs",
-              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\conectaBanco.cs",
-              "RelativeDocumentMoniker": "Revendedora\\conectaBanco.cs",
-              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\conectaBanco.cs",
-              "RelativeToolTip": "Revendedora\\conectaBanco.cs",
-              "ViewState": "AgIAABsBAAAAAAAAAAAQwCMBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T12:59:36.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs",
               "RelativeDocumentMoniker": "Revendedora\\Form1.cs",
-              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Revendedora\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs [Projeto]*",
+              "RelativeToolTip": "Revendedora\\Form1.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:12:29.162Z",
               "EditorCaption": " [Projeto]"
