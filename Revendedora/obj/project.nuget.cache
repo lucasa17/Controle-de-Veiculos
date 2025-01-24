@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rjtCkNd6ESI=",
+  "dgSpecHash": "KI0FxDf7/gg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\41279517883\\Source\\Repos\\Controle-de-veiculos\\Revendedora\\Revendedora.csproj",
+  "projectFilePath": "C:\\Users\\41279517883\\Source\\Repos\\Revendedora\\Revendedora\\Revendedora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\41279517883\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\41279517883\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Revendedora
-build_property.ProjectDir = C:\Users\41279517883\Source\Repos\Controle-de-veiculos\Revendedora\
+build_property.ProjectDir = C:\Users\41279517883\Source\Repos\Revendedora\Revendedora\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

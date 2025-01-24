@@ -220,6 +220,44 @@ namespace Revendedora
             }
         }
 
+
+        public DataTable listaVendas()
+        {
+
+            MySqlCommand listaVen = new MySqlCommand("sp_buscaVendas", conexao);
+
+            listaVen.CommandType = CommandType.StoredProcedure;
+
+            try
+            {
+
+                conexao.Open();
+
+                MySqlDataAdapter da = new MySqlDataAdapter(listaVen);
+
+                DataTable tabela = new DataTable();
+
+                da.Fill(tabela);
+
+                return tabela;
+            }
+
+            catch (MySqlException erro)
+            {
+
+                mensagem = "Erro:" + erro.Message;
+
+                return null;
+            }
+
+            finally
+            {
+
+                conexao.Close();
+
+            }
+        }
+
         public bool cadastro(user novoUser)
         {
 
@@ -262,8 +300,8 @@ namespace Revendedora
             string senha = biblioteca.makeHash(pass);
             MySqlCommand cmd = new MySqlCommand("sp_login", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("email", email);
-            cmd.Parameters.AddWithValue("senha", senha);
+            cmd.Parameters.AddWithValue("user", email);
+            cmd.Parameters.AddWithValue("password", senha);
             try
             {
                 conexao.Open();//abrindo a conexão;
@@ -284,6 +322,71 @@ namespace Revendedora
             finally
             {
                 conexao.Close();
+            }
+        }
+
+        public bool insereVenda(Venda novaVenda, int idAlterar)
+        {
+
+            try
+            {
+
+                DateTime data = DateTime.Today;
+
+                conexao.Open();
+
+                MySqlCommand cmd = new MySqlCommand("sp_vendeVeiculo", conexao);
+
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                //cmd.Parameters.AddWithValue("cpf", novaVenda.Cpf);
+                cmd.Parameters.AddWithValue("nome", novaVenda.Nome);
+                cmd.Parameters.AddWithValue("data", data);                
+                cmd.Parameters.AddWithValue("valor", novaVenda.Valor);
+                cmd.Parameters.AddWithValue("id", idAlterar);
+
+
+                cmd.ExecuteNonQuery();
+
+                return true;
+
+            }
+
+            catch (MySqlException erro)
+            {
+
+                mensagem = erro.Message;
+                return false;
+
+            }
+
+        }
+
+        public bool deletaMarca(int idDeletaMarca)
+        {
+
+            MySqlCommand deletar = new MySqlCommand("sp_deletaMarca", conexao);
+
+            deletar.CommandType = CommandType.StoredProcedure;
+
+            deletar.Parameters.AddWithValue("id", idDeletaMarca);
+
+
+            try
+            {
+
+                conexao.Open();
+
+                deletar.ExecuteNonQuery(); //executa o comando
+
+                return true;
+            }
+            catch (MySqlException erro)
+            {
+
+                mensagem = erro.Message;
+                return false;
+
             }
         }
 

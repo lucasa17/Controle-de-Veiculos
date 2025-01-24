@@ -76,25 +76,43 @@
             label13 = new Label();
             label12 = new Label();
             label11 = new Label();
+            tabPage6 = new TabPage();
+            label24 = new Label();
+            button1 = new Button();
+            decvalvenda = new TextBox();
+            label23 = new Label();
+            txtnomecomp = new TextBox();
+            maskedTextBox4 = new MaskedTextBox();
+            label10 = new Label();
             tabPage5 = new TabPage();
+            button4 = new Button();
             label21 = new Label();
             gridmarcas = new DataGridView();
             button2 = new Button();
             txtmarca = new TextBox();
             label8 = new Label();
             label6 = new Label();
+            tabPage4 = new TabPage();
+            label25 = new Label();
+            txtcomprador = new TextBox();
+            gridvendas = new DataGridView();
             linkLabel1 = new LinkLabel();
             linkLabel2 = new LinkLabel();
             linkLabel3 = new LinkLabel();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            linkLabel4 = new LinkLabel();
+            button8 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gridveiculos).BeginInit();
             tabPage3.SuspendLayout();
+            tabPage6.SuspendLayout();
             tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gridmarcas).BeginInit();
+            tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)gridvendas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -104,7 +122,9 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage6);
             tabControl1.Controls.Add(tabPage5);
+            tabControl1.Controls.Add(tabPage4);
             tabControl1.Cursor = Cursors.Hand;
             tabControl1.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tabControl1.Location = new Point(138, 77);
@@ -335,6 +355,7 @@
             botaovender.TabIndex = 14;
             botaovender.Text = "Vender";
             botaovender.UseVisualStyleBackColor = true;
+            botaovender.Click += botaovender_Click;
             // 
             // txtbuscacor
             // 
@@ -589,8 +610,92 @@
             label11.TabIndex = 1;
             label11.Text = "Placa:";
             // 
+            // tabPage6
+            // 
+            tabPage6.Controls.Add(label24);
+            tabPage6.Controls.Add(button1);
+            tabPage6.Controls.Add(decvalvenda);
+            tabPage6.Controls.Add(label23);
+            tabPage6.Controls.Add(txtnomecomp);
+            tabPage6.Controls.Add(maskedTextBox4);
+            tabPage6.Controls.Add(label10);
+            tabPage6.Location = new Point(4, 26);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Size = new Size(652, 274);
+            tabPage6.TabIndex = 6;
+            tabPage6.Text = "Vender";
+            tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.BackColor = Color.Transparent;
+            label24.Font = new Font("Georgia", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.ForeColor = Color.Black;
+            label24.Location = new Point(219, 18);
+            label24.Name = "label24";
+            label24.Size = new Size(194, 24);
+            label24.TabIndex = 22;
+            label24.Text = "Venda seu veículo";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.Cursor = Cursors.Hand;
+            button1.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(254, 203);
+            button1.Name = "button1";
+            button1.Size = new Size(102, 36);
+            button1.TabIndex = 21;
+            button1.Text = "Vender";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // decvalvenda
+            // 
+            decvalvenda.Location = new Point(165, 153);
+            decvalvenda.Name = "decvalvenda";
+            decvalvenda.Size = new Size(453, 25);
+            decvalvenda.TabIndex = 20;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label23.Location = new Point(21, 154);
+            label23.Name = "label23";
+            label23.Size = new Size(116, 20);
+            label23.TabIndex = 19;
+            label23.Text = "Valor da venda:";
+            label23.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // txtnomecomp
+            // 
+            txtnomecomp.Location = new Point(165, 100);
+            txtnomecomp.Name = "txtnomecomp";
+            txtnomecomp.Size = new Size(453, 25);
+            txtnomecomp.TabIndex = 16;
+            // 
+            // maskedTextBox4
+            // 
+            maskedTextBox4.Location = new Point(56, 73);
+            maskedTextBox4.Name = "maskedTextBox4";
+            maskedTextBox4.Size = new Size(0, 25);
+            maskedTextBox4.TabIndex = 15;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.Location = new Point(21, 101);
+            label10.Name = "label10";
+            label10.Size = new Size(138, 20);
+            label10.TabIndex = 14;
+            label10.Text = "Nome Comprador:";
+            // 
             // tabPage5
             // 
+            tabPage5.Controls.Add(button4);
             tabPage5.Controls.Add(label21);
             tabPage5.Controls.Add(gridmarcas);
             tabPage5.Controls.Add(button2);
@@ -603,6 +708,17 @@
             tabPage5.TabIndex = 3;
             tabPage5.Text = "Marcas";
             tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(453, 232);
+            button4.Name = "button4";
+            button4.Size = new Size(100, 33);
+            button4.TabIndex = 6;
+            button4.Text = "Deletar";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // label21
             // 
@@ -620,14 +736,14 @@
             gridmarcas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             gridmarcas.Location = new Point(430, 46);
             gridmarcas.Name = "gridmarcas";
-            gridmarcas.Size = new Size(144, 219);
+            gridmarcas.Size = new Size(144, 180);
             gridmarcas.TabIndex = 4;
             gridmarcas.CellContentClick += dataGridView1_CellContentClick;
             // 
             // button2
             // 
             button2.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(147, 176);
+            button2.Location = new Point(149, 160);
             button2.Name = "button2";
             button2.Size = new Size(100, 33);
             button2.TabIndex = 3;
@@ -637,7 +753,7 @@
             // 
             // txtmarca
             // 
-            txtmarca.Location = new Point(79, 107);
+            txtmarca.Location = new Point(79, 103);
             txtmarca.Name = "txtmarca";
             txtmarca.Size = new Size(270, 25);
             txtmarca.TabIndex = 2;
@@ -647,7 +763,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(17, 108);
+            label8.Location = new Point(17, 104);
             label8.Name = "label8";
             label8.Size = new Size(56, 20);
             label8.TabIndex = 1;
@@ -663,6 +779,47 @@
             label6.TabIndex = 0;
             label6.Text = "Adicione suas marcas";
             // 
+            // tabPage4
+            // 
+            tabPage4.Controls.Add(button8);
+            tabPage4.Controls.Add(label25);
+            tabPage4.Controls.Add(txtcomprador);
+            tabPage4.Controls.Add(gridvendas);
+            tabPage4.Location = new Point(4, 26);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Size = new Size(652, 274);
+            tabPage4.TabIndex = 5;
+            tabPage4.Text = "Vendas";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label25.Location = new Point(33, 29);
+            label25.Name = "label25";
+            label25.Size = new Size(92, 20);
+            label25.TabIndex = 9;
+            label25.Text = "Comprador:";
+            label25.Click += label25_Click;
+            // 
+            // txtcomprador
+            // 
+            txtcomprador.Location = new Point(131, 28);
+            txtcomprador.Name = "txtcomprador";
+            txtcomprador.Size = new Size(178, 25);
+            txtcomprador.TabIndex = 8;
+            txtcomprador.TextChanged += txtcomprador_TextChanged;
+            // 
+            // gridvendas
+            // 
+            gridvendas.BackgroundColor = Color.WhiteSmoke;
+            gridvendas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            gridvendas.Location = new Point(33, 69);
+            gridvendas.Name = "gridvendas";
+            gridvendas.Size = new Size(586, 188);
+            gridvendas.TabIndex = 1;
+            // 
             // linkLabel1
             // 
             linkLabel1.ActiveLinkColor = Color.LightGray;
@@ -673,7 +830,7 @@
             linkLabel1.ForeColor = Color.Black;
             linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel1.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel1.Location = new Point(12, 77);
+            linkLabel1.Location = new Point(13, 77);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(97, 25);
             linkLabel1.TabIndex = 6;
@@ -691,7 +848,7 @@
             linkLabel2.ForeColor = Color.Black;
             linkLabel2.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel2.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel2.Location = new Point(12, 134);
+            linkLabel2.Location = new Point(13, 132);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(71, 25);
             linkLabel2.TabIndex = 7;
@@ -709,7 +866,7 @@
             linkLabel3.ForeColor = Color.Black;
             linkLabel3.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel3.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel3.Location = new Point(12, 195);
+            linkLabel3.Location = new Point(13, 185);
             linkLabel3.Name = "linkLabel3";
             linkLabel3.Size = new Size(75, 25);
             linkLabel3.TabIndex = 8;
@@ -737,12 +894,42 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
+            // linkLabel4
+            // 
+            linkLabel4.ActiveLinkColor = Color.LightGray;
+            linkLabel4.AutoSize = true;
+            linkLabel4.BackColor = Color.FromArgb(11, 19, 43);
+            linkLabel4.Cursor = Cursors.Hand;
+            linkLabel4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            linkLabel4.ForeColor = Color.Black;
+            linkLabel4.LinkBehavior = LinkBehavior.HoverUnderline;
+            linkLabel4.LinkColor = Color.FromArgb(169, 179, 206);
+            linkLabel4.Location = new Point(13, 239);
+            linkLabel4.Name = "linkLabel4";
+            linkLabel4.Size = new Size(76, 25);
+            linkLabel4.TabIndex = 9;
+            linkLabel4.TabStop = true;
+            linkLabel4.Text = "Vendas";
+            linkLabel4.LinkClicked += linkLabel4_LinkClicked_1;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(519, 30);
+            button8.Name = "button8";
+            button8.Size = new Size(100, 33);
+            button8.TabIndex = 10;
+            button8.Text = "Deletar";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(799, 380);
+            Controls.Add(linkLabel4);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
             Controls.Add(linkLabel1);
@@ -762,9 +949,14 @@
             ((System.ComponentModel.ISupportInitialize)gridveiculos).EndInit();
             tabPage3.ResumeLayout(false);
             tabPage3.PerformLayout();
+            tabPage6.ResumeLayout(false);
+            tabPage6.PerformLayout();
             tabPage5.ResumeLayout(false);
             tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)gridmarcas).EndInit();
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)gridvendas).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
@@ -832,5 +1024,20 @@
         private Button botaovender;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private TabPage tabPage6;
+        private TextBox txtnomecomp;
+        private MaskedTextBox maskedTextBox4;
+        private Label label10;
+        private TabPage tabPage4;
+        private Label label24;
+        private Button button1;
+        private TextBox decvalvenda;
+        private Label label23;
+        private LinkLabel linkLabel4;
+        private Label label25;
+        private TextBox txtcomprador;
+        private DataGridView gridvendas;
+        private Button button4;
+        private Button button8;
     }
 }

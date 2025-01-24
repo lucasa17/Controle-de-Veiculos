@@ -41,13 +41,13 @@ namespace Revendedora
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            tabControl1.SelectedTab = tabControl1.TabPages[3];
+            tabControl1.SelectedTab = tabControl1.TabPages[4];
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedTab = tabControl1.TabPages[3];
+            tabControl1.SelectedTab = tabControl1.TabPages[4];
 
         }
 
@@ -108,6 +108,7 @@ namespace Revendedora
 
             listaConectaMarca();
             listaConectaVeiculo();
+            listaConectaVenda();
 
         }
 
@@ -145,6 +146,23 @@ namespace Revendedora
 
             gridveiculos.DataSource = tabelaDados;
             gridveiculos.Columns["idVeiculo"].Visible = false;
+
+        }
+
+        public void listaConectaVenda()
+        {
+
+            conectaBanco conexao = new conectaBanco();
+
+            DataTable tabelaDados = new DataTable();
+
+            tabelaDados = conexao.listaVendas();
+
+            gridvendas.DataSource = tabelaDados;
+            gridvendas.Columns["idVendas"].Visible = false;
+            gridvendas.Columns["idVeiculo_fk"].Visible = false;
+
+
 
         }
         private void textBox6_TextChanged(object sender, EventArgs e)
@@ -323,6 +341,138 @@ namespace Revendedora
         private void txtmodelo_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void botaovender_Click(object sender, EventArgs e)
+        {
+
+            int linha = gridveiculos.CurrentRow.Index;
+
+            idAlterar = Convert.ToInt32(gridveiculos.Rows[linha].Cells["idVeiculo"].Value.ToString());
+
+            tabControl1.SelectedTab = tabControl1.TabPages[3];
+
+        }
+
+        private void linkLabel4_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            tabControl1.SelectedTab = tabControl1.TabPages[5];
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            conectaBanco conexao = new conectaBanco();
+
+            Venda novaVenda = new Venda();
+
+            novaVenda.Nome = txtnomecomp.Text;
+            novaVenda.Valor = Convert.ToDecimal(decvalvenda.Text);
+            //novaVenda.Cpf = txtcpfcomp.Text;
+
+
+            bool retorno = conexao.insereVenda(novaVenda, idAlterar);
+
+
+            if (retorno == false)
+            {
+
+                MessageBox.Show(conexao.mensagem);
+
+            }
+
+            listaConectaVenda();
+            listaConectaVeiculo();
+
+
+            tabControl1.SelectedTab = tabControl1.TabPages[5];
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtcomprador_TextChanged(object sender, EventArgs e)
+        {
+
+            (gridvendas.DataSource as DataTable).DefaultView.RowFilter =
+             string.Format("Comprador like '{0}%'", txtcomprador.Text);
+
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            int linha = gridmarcas.CurrentRow.Index;
+            int id = Convert.ToInt32(gridmarcas.Rows[linha].Cells["idMarca"].Value.ToString());
+
+            DialogResult resposta = MessageBox.Show("Tem certeza que deseja deletar essa marca?",
+                "Remover Marca", MessageBoxButtons.OKCancel);
+
+
+            if (resposta == DialogResult.OK)
+            {
+
+                conectaBanco conexao = new conectaBanco();
+
+                bool retorno = conexao.deletaMarca(id);
+
+                if (retorno == true)
+                {
+
+                    MessageBox.Show("Marca deletada com sucesso!");
+                    listaConectaMarca();
+                    listaConectaVeiculo();
+
+
+                }
+                else
+                {
+                    MessageBox.Show(conexao.mensagem);
+                }
+
+            }
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+            int linha = gridvendas.CurrentRow.Index;
+            int id = Convert.ToInt32(gridvendas.Rows[linha].Cells["idVeiculo_fk"].Value.ToString());
+
+            DialogResult resposta = MessageBox.Show("Tem certeza que deseja deletar essa venda?",
+                "Remover Venda", MessageBoxButtons.OKCancel);
+
+
+            if (resposta == DialogResult.OK)
+            {
+
+                conectaBanco conexao = new conectaBanco();
+
+                bool retorno = conexao.deletaVeiculo(id);
+
+                if (retorno == true)
+                {
+
+                    MessageBox.Show("Venda deletada com sucesso!");
+                    listaConectaVenda();
+                    listaConectaVeiculo();
+
+
+                }
+                else
+                {
+                    MessageBox.Show(conexao.mensagem);
+                }
+
+            }
         }
     }
 }
