@@ -209,7 +209,7 @@ DELIMITER ;
 DROP TABLE IF EXISTS `veiculos`;
 CREATE TABLE IF NOT EXISTS `veiculos` (
   `idVeiculo` int(11) NOT NULL AUTO_INCREMENT,
-  `placa` varchar(7) NOT NULL,
+  `placa` varchar(8) NOT NULL,
   `modelo` varchar(50) NOT NULL,
   `cor` varchar(15) NOT NULL,
   `anoFabricacao` int(11) NOT NULL,
