@@ -1,9 +1,9 @@
 <h1 align="center">Revendedora LL</h1>
 <h4 align='center'>Sistemas desenvolvido em C# conectado com Banco de Dados !</h2>
 
-### Linguagens Utilizadas:
+<p>Linguagens Utilizadas:
 * C#
-* SQL
+* SQL</p>
 
 ### Ferramentas Utilizadas:
 * Microsoft Visual Studio
