@@ -5,17 +5,26 @@
 * C#
 </br>
 * SQL
+</br>
 
-Ferramentas Utilizadas:
+
+<h4>Ferramentas Utilizadas:</h4>
 * Microsoft Visual Studio
+</br>
 * MySql Workbench
-* Wampp
+</br>
+* Wampp Server
+</br>
 
-Funções do Software:
+<h4>Funções do Software:</h4>
 * Inserir dados;
+</br
 * Listar dados;
+</br>
 * Alterar dados;
+</br>
 * Remover dados;
+</br>
 
 <h3 align='center'>Telas</h3>
 
