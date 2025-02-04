@@ -16,7 +16,7 @@ Funções do Software:
 * Alterar dados;
 * Remover dados;
 
-<h5>Telas</h5>
+<h3>Telas</h3>
 
 Tela de Login
 <figure>
