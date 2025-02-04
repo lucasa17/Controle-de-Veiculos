@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|C:\\Users\\41279517883\\source\\repos\\Revendedora\\revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|C:\\Users\\41279517883\\source\\repos\\Revendedora\\revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -37,8 +37,7 @@
               "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Login.cs [Projeto]",
               "RelativeToolTip": "Revendedora\\Login.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:23:54.145Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-02-04T11:23:54.145Z"
             },
             {
               "$type": "Document",
@@ -49,8 +48,7 @@
               "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Cadastro.cs [Projeto]",
               "RelativeToolTip": "Revendedora\\Cadastro.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:23:02.858Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-02-04T11:23:02.858Z"
             },
             {
               "$type": "Document",
