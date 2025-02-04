@@ -18,5 +18,5 @@ Funções do Software:
 
 Tela de Login
 <figure>
-  <img src="https://raw.githubusercontent.com/lucasa17/Revendedora/Prints/Login.PNG" alt="Cadastro">
+  <img src="https:lucasa17/Revendedora/Prints/Login.PNG" alt="Cadastro">
 </figure>
