@@ -17,5 +17,6 @@ Funções do Software:
 * Remover dados;
 
 Tela de Login
-![Login](https://github.com/user-attachments/assets/0f10c17c-af1e-46f4-bbcf-92a7c14a164a)
-
+<figure>
+  <img src="https://raw.githubusercontent.com/lucasa17/Revendedora/Prints/Login.PNG" alt="Cadastro">
+</figure>
