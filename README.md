@@ -26,7 +26,7 @@
 * Remover dados;
 </br>
 
-<h3 align='center'>Telas</h3>
+<h3 align='center' font-size: 15px>Telas</h3>
 
 <b><p padding-top = 50px>Tela de Login:</p></b>
 <figure>
