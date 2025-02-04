@@ -7,6 +7,8 @@
 - SQL
 </br>
 
+<h4>Resumo do Sistema:</h4>
+O sistema abrnge uma revendedora de veículos, onde o propietário pode cadastrar seus veículos, alterar e deletar se necessário, também sendo possível registrar a venda desses veículos, de forma que ele possa ver os veículos que ele tem em estoque cadastrados e os que ja forma vendidos.
 
 <h4>Ferramentas Utilizadas:</h4>
 - Microsoft Visual Studio
