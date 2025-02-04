@@ -210,9 +210,7 @@ CREATE TABLE IF NOT EXISTS `veiculos` (
   `marca_fk` int(11) NOT NULL,
   `status` bit(1) NOT NULL,
   PRIMARY KEY (`idVeiculo`),
-  UNIQUE KEY `placa` (`placa`),
-  KEY `marca_fk` (`marca_fk`),
-  CONSTRAINT `veiculos_ibfk_1` FOREIGN KEY (`marca_fk`) REFERENCES `marcas` (`idMarca`) ON DELETE CASCADE ON UPDATE CASCADE
+  UNIQUE KEY `placa` (`placa`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Copiando dados para a tabela revendedora.veiculos: ~6 rows (aproximadamente)
