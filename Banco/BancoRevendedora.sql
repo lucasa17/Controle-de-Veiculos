@@ -32,8 +32,6 @@ CREATE TABLE IF NOT EXISTS `empresa` (
 
 -- Copiando dados para a tabela revendedora.empresa: 1 rows
 /*!40000 ALTER TABLE `empresa` DISABLE KEYS */;
-INSERT INTO `empresa` (`idEmpresa`, `nome`, `email`, `senha`) VALUES
-	(6, 'Jacaré empresas', 'jacare@gmail.com', 'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad');
 /*!40000 ALTER TABLE `empresa` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela revendedora.marcas
@@ -46,11 +44,6 @@ CREATE TABLE IF NOT EXISTS `marcas` (
 
 -- Copiando dados para a tabela revendedora.marcas: 4 rows
 /*!40000 ALTER TABLE `marcas` DISABLE KEYS */;
-INSERT INTO `marcas` (`idMarca`, `nome`) VALUES
-	(2, 'Ford'),
-	(3, 'Chevrolet'),
-	(4, 'Fiat'),
-	(6, 'BMW');
 /*!40000 ALTER TABLE `marcas` ENABLE KEYS */;
 
 -- Copiando estrutura para procedure revendedora.sp_alteraVeiculo
@@ -71,7 +64,7 @@ DELIMITER //
 CREATE PROCEDURE `sp_buscaMarca`()
 BEGIN
 
-	select * from marcas order by nome asc;
+	select idMarca, nome as Marcas from marcas order by nome asc;
 
 END//
 DELIMITER ;
@@ -223,13 +216,6 @@ CREATE TABLE IF NOT EXISTS `veiculos` (
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Copiando dados para a tabela revendedora.veiculos: ~6 rows (aproximadamente)
-INSERT INTO `veiculos` (`idVeiculo`, `placa`, `modelo`, `cor`, `anoFabricacao`, `valor`, `marca_fk`, `status`) VALUES
-	(6, 'hrs1234', 'Ka', 'Prata', 2016, 30000.00, 2, b'0'),
-	(9, 'rtf1234', 'Onix', 'Branco', 2017, 52000.00, 3, b'0'),
-	(12, 'asd4527', 'Onix Lt', 'Branco', 2017, 42000.00, 3, b'0'),
-	(19, 'hfd1234', 'Ka', 'Prata', 2016, 30000.00, 2, b'0'),
-	(20, 'aud4527', 'Onix Lt', 'Branco', 2017, 42000.00, 3, b'0'),
-	(21, 'ruf1234', 'Onix', 'Branco', 2017, 52000.00, 3, b'0');
 
 -- Copiando estrutura para tabela revendedora.vendas
 DROP TABLE IF EXISTS `vendas`;
