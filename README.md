@@ -18,7 +18,7 @@ Funções do Software:
 
 <h3 align='center'>Telas</h3>
 
-Tela de Login:
+<p padding-top = 15px>Tela de Login:</p>
 <figure>
   <img src="Revendedora/Prints/Login.PNG" alt="Cadastro">
 </figure>
