@@ -20,5 +20,15 @@ Funções do Software:
 
 <p padding-top = 30px, padding-bottom = 30px>Tela de Login:</p>
 <figure>
-  <img src="Revendedora/Prints/Login.PNG" alt="Cadastro">
+  <img src="Revendedora/Prints/Login.PNG" alt="Login">
+</figure>
+
+<p padding-top = 30px, padding-bottom = 30px>Tela de Cadastro:</p>
+<figure>
+  <img src="Revendedora/Prints/Cadastro.PNG" alt="Cadastro">
+</figure>
+
+<p padding-top = 30px, padding-bottom = 30px>Tela de Cadastro de veículo:</p>
+<figure>
+  <img src="Revendedora/Prints/Cadastra_veiculo.PNG" alt="CadastraVeiculo">
 </figure>
