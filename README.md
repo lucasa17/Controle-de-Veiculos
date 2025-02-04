@@ -16,6 +16,8 @@ Funções do Software:
 * Alterar dados;
 * Remover dados;
 
+<h5>Telas</h5>
+
 Tela de Login
 <figure>
   <img src="Revendedora/Prints/Login.PNG" alt="Cadastro">
