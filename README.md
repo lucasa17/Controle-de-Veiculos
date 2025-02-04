@@ -28,7 +28,7 @@
 
 <h3 align='center'>Telas</h3>
 
-<b<p padding-top = 50px>Tela de Login:</p>>
+<b><p padding-top = 50px>Tela de Login:</p></b>
 <figure>
   <img src="Revendedora/Prints/Login.PNG" alt="Login">
 </figure>
