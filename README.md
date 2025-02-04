@@ -42,3 +42,14 @@
 <figure>
   <img src="Revendedora/Prints/Cadastra_veiculo.PNG" alt="CadastraVeiculo">
 </figure>
+
+<p padding-top = 30px, padding-bottom = 30px>Tela de Busca de veículo:</p>
+<figure>
+  <img src="Revendedora/Prints/Busca_veiculo.PNG" alt="BuscaVeiculo">
+</figure>
+
+<p padding-top = 30px, padding-bottom = 30px>Tela de Alteração de veículo:</p>
+<figure>
+  <img src="Revendedora/Prints/Altera_veiculo.PNG" alt="AlteraVeiculo">
+</figure>
+
