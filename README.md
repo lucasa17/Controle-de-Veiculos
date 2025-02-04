@@ -33,20 +33,19 @@
   <img src="Revendedora/Prints/Login.PNG" alt="Login">
 </figure>
 </br>
-</br>
+
 
 <b><p padding-top = 50px>Tela de Cadastro:</p></b>
 <figure>
   <img src="Revendedora/Prints/Cadastro.PNG" alt="Cadastro">
 </figure>
 </br>
-</br>
+
 
 <b><p padding-top = 50px>Tela de Cadastro de veículo:</p></b>
 <figure>
   <img src="Revendedora/Prints/Cadastra_veiculo.PNG" alt="CadastraVeiculo">
 </figure>
-</br>
 </br>
 
 <b><p padding-top = 50px>Tela de Busca de veículo:</p></b>
@@ -54,13 +53,11 @@
   <img src="Revendedora/Prints/Busca_veiculo.PNG" alt="BuscaVeiculo">
 </figure>
 </br>
-</br>
 
 <b><p padding-top = 50px>Tela de Alteração de veículo:</p></b>
 <figure>
   <img src="Revendedora/Prints/Altera_veiculo.PNG" alt="AlteraVeiculo">
 </figure>
-</br>
 </br>
 
 <b><p padding-top = 50px>Tela de Venda de veículo:</p></b>
@@ -68,12 +65,12 @@
   <img src="Revendedora/Prints/Vende_veiculo.PNG" alt="VendeVeiculo">
 </figure>
 </br>
-</br>
 
 <b><p padding-top = 50px>Tela de Marcas de veículo:</p></b>
 <figure>
   <img src="Revendedora/Prints/Add-Del_marca.PNG" alt="MarcaVeiculo">
 </figure>
+</br>
 
 <b><p padding-top = 50px>Tela de Busca de vendas:</p></b>
 <figure>
