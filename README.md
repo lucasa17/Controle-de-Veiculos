@@ -40,7 +40,7 @@
 
 <b><p padding-top = 50px>Tela de Cadastro de veículo:</p></b>
 <figure>
-  <img src="Revendedora/Prints/Cadastra_veiculo.PNG" alt="CadastraVeiculo">
+  <img margin-bottom:25px ,src="Revendedora/Prints/Cadastra_veiculo.PNG" alt="CadastraVeiculo">
 </figure>
 
 <b><p padding-top = 50px>Tela de Busca de veículo:</p></b>
