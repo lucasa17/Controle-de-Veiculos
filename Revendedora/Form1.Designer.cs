@@ -103,6 +103,7 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             linkLabel4 = new LinkLabel();
+            label22 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -127,10 +128,10 @@
             tabControl1.Controls.Add(tabPage4);
             tabControl1.Cursor = Cursors.Hand;
             tabControl1.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tabControl1.Location = new Point(138, 77);
+            tabControl1.Location = new Point(138, 72);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(660, 304);
+            tabControl1.Size = new Size(660, 309);
             tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -156,7 +157,7 @@
             tabPage1.Location = new Point(4, 26);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(652, 274);
+            tabPage1.Size = new Size(652, 279);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Cadastrar";
             tabPage1.UseVisualStyleBackColor = true;
@@ -204,11 +205,11 @@
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
-            label7.Font = new Font("Georgia", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.Black;
             label7.Location = new Point(220, 18);
             label7.Name = "label7";
-            label7.Size = new Size(219, 24);
+            label7.Size = new Size(218, 45);
             label7.TabIndex = 3;
             label7.Text = "Cadastre seu veículo";
             // 
@@ -343,7 +344,7 @@
             tabPage2.Location = new Point(4, 26);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(652, 274);
+            tabPage2.Size = new Size(652, 279);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Buscar";
             // 
@@ -477,7 +478,7 @@
             tabPage3.Controls.Add(label11);
             tabPage3.Location = new Point(4, 26);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(652, 274);
+            tabPage3.Size = new Size(652, 279);
             tabPage3.TabIndex = 4;
             tabPage3.Text = "Alterar";
             tabPage3.UseVisualStyleBackColor = true;
@@ -592,11 +593,11 @@
             // 
             label12.AutoSize = true;
             label12.BackColor = Color.Transparent;
-            label12.Font = new Font("Georgia", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label12.ForeColor = Color.Black;
-            label12.Location = new Point(212, 24);
+            label12.Location = new Point(220, 20);
             label12.Name = "label12";
-            label12.Size = new Size(191, 24);
+            label12.Size = new Size(194, 45);
             label12.TabIndex = 4;
             label12.Text = "Altere seu veículo";
             // 
@@ -621,7 +622,7 @@
             tabPage6.Controls.Add(label10);
             tabPage6.Location = new Point(4, 26);
             tabPage6.Name = "tabPage6";
-            tabPage6.Size = new Size(652, 274);
+            tabPage6.Size = new Size(652, 279);
             tabPage6.TabIndex = 6;
             tabPage6.Text = "Vender";
             tabPage6.UseVisualStyleBackColor = true;
@@ -630,11 +631,11 @@
             // 
             label24.AutoSize = true;
             label24.BackColor = Color.Transparent;
-            label24.Font = new Font("Georgia", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label24.ForeColor = Color.Black;
             label24.Location = new Point(219, 18);
             label24.Name = "label24";
-            label24.Size = new Size(194, 24);
+            label24.Size = new Size(192, 45);
             label24.TabIndex = 22;
             label24.Text = "Venda seu veículo";
             // 
@@ -695,16 +696,16 @@
             // 
             // tabPage5
             // 
+            tabPage5.Controls.Add(gridmarcas);
             tabPage5.Controls.Add(button4);
             tabPage5.Controls.Add(label21);
-            tabPage5.Controls.Add(gridmarcas);
             tabPage5.Controls.Add(button2);
             tabPage5.Controls.Add(txtmarca);
             tabPage5.Controls.Add(label8);
             tabPage5.Controls.Add(label6);
             tabPage5.Location = new Point(4, 26);
             tabPage5.Name = "tabPage5";
-            tabPage5.Size = new Size(652, 274);
+            tabPage5.Size = new Size(652, 279);
             tabPage5.TabIndex = 3;
             tabPage5.Text = "Marcas";
             tabPage5.UseVisualStyleBackColor = true;
@@ -712,7 +713,7 @@
             // button4
             // 
             button4.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(453, 232);
+            button4.Location = new Point(453, 237);
             button4.Name = "button4";
             button4.Size = new Size(100, 33);
             button4.TabIndex = 6;
@@ -723,10 +724,10 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Font = new Font("Georgia", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label21.Location = new Point(403, 19);
             label21.Name = "label21";
-            label21.Size = new Size(200, 24);
+            label21.Size = new Size(197, 45);
             label21.TabIndex = 5;
             label21.Text = "Marcas no sistema";
             // 
@@ -734,7 +735,7 @@
             // 
             gridmarcas.BackgroundColor = Color.WhiteSmoke;
             gridmarcas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridmarcas.Location = new Point(430, 46);
+            gridmarcas.Location = new Point(430, 51);
             gridmarcas.Name = "gridmarcas";
             gridmarcas.Size = new Size(144, 180);
             gridmarcas.TabIndex = 4;
@@ -772,10 +773,10 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Georgia", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(79, 19);
+            label6.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(93, 19);
             label6.Name = "label6";
-            label6.Size = new Size(232, 24);
+            label6.Size = new Size(225, 45);
             label6.TabIndex = 0;
             label6.Text = "Adicione suas marcas";
             // 
@@ -787,7 +788,7 @@
             tabPage4.Controls.Add(gridvendas);
             tabPage4.Location = new Point(4, 26);
             tabPage4.Name = "tabPage4";
-            tabPage4.Size = new Size(652, 274);
+            tabPage4.Size = new Size(652, 279);
             tabPage4.TabIndex = 5;
             tabPage4.Text = "Vendas";
             tabPage4.UseVisualStyleBackColor = true;
@@ -837,13 +838,13 @@
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel1.Cursor = Cursors.Hand;
-            linkLabel1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            linkLabel1.Font = new Font("Javanese Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel1.ForeColor = Color.Black;
             linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel1.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel1.Location = new Point(13, 77);
+            linkLabel1.Location = new Point(13, 72);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(97, 25);
+            linkLabel1.Size = new Size(108, 43);
             linkLabel1.TabIndex = 6;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Cadastrar";
@@ -855,13 +856,13 @@
             linkLabel2.AutoSize = true;
             linkLabel2.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel2.Cursor = Cursors.Hand;
-            linkLabel2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            linkLabel2.Font = new Font("Javanese Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel2.ForeColor = Color.Black;
             linkLabel2.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel2.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel2.Location = new Point(13, 132);
+            linkLabel2.Location = new Point(13, 130);
             linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(71, 25);
+            linkLabel2.Size = new Size(81, 43);
             linkLabel2.TabIndex = 7;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Buscar";
@@ -873,13 +874,13 @@
             linkLabel3.AutoSize = true;
             linkLabel3.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel3.Cursor = Cursors.Hand;
-            linkLabel3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            linkLabel3.Font = new Font("Javanese Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel3.ForeColor = Color.Black;
             linkLabel3.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel3.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel3.Location = new Point(13, 185);
+            linkLabel3.Location = new Point(13, 186);
             linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(75, 25);
+            linkLabel3.Size = new Size(85, 43);
             linkLabel3.TabIndex = 8;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "Marcas";
@@ -911,17 +912,30 @@
             linkLabel4.AutoSize = true;
             linkLabel4.BackColor = Color.FromArgb(11, 19, 43);
             linkLabel4.Cursor = Cursors.Hand;
-            linkLabel4.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            linkLabel4.Font = new Font("Javanese Text", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             linkLabel4.ForeColor = Color.Black;
             linkLabel4.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel4.LinkColor = Color.FromArgb(169, 179, 206);
-            linkLabel4.Location = new Point(13, 239);
+            linkLabel4.Location = new Point(13, 246);
             linkLabel4.Name = "linkLabel4";
-            linkLabel4.Size = new Size(76, 25);
+            linkLabel4.Size = new Size(84, 43);
             linkLabel4.TabIndex = 9;
             linkLabel4.TabStop = true;
             linkLabel4.Text = "Vendas";
             linkLabel4.LinkClicked += linkLabel4_LinkClicked_1;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.BackColor = Color.FromArgb(169, 179, 206);
+            label22.Font = new Font("Javanese Text", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label22.ForeColor = Color.FromArgb(11, 19, 43);
+            label22.Location = new Point(362, 15);
+            label22.Name = "label22";
+            label22.Size = new Size(208, 54);
+            label22.TabIndex = 10;
+            label22.Text = "Revendedora LL";
+            label22.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -929,6 +943,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(799, 380);
+            Controls.Add(label22);
             Controls.Add(linkLabel4);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel2);
@@ -1039,5 +1054,6 @@
         private DataGridView gridvendas;
         private Button button4;
         private Button button8;
+        private Label label22;
     }
 }

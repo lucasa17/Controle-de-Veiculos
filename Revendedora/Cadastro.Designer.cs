@@ -163,10 +163,10 @@
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.FromArgb(169, 179, 206);
-            label5.Font = new Font("Georgia", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Javanese Text", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(274, 132);
             label5.Name = "label5";
-            label5.Size = new Size(123, 29);
+            label5.Size = new Size(122, 54);
             label5.TabIndex = 14;
             label5.Text = "Cadastro";
             // 
@@ -174,10 +174,10 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = Color.FromArgb(169, 179, 206);
-            label6.Font = new Font("Georgia", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Font = new Font("Javanese Text", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(213, 79);
             label6.Name = "label6";
-            label6.Size = new Size(119, 29);
+            label6.Size = new Size(119, 54);
             label6.TabIndex = 15;
             label6.Text = "Faça seu";
             // 

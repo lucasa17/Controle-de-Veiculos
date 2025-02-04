@@ -141,10 +141,10 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(169, 179, 206);
-            label4.Font = new Font("Georgia", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Javanese Text", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(352, 45);
             label4.Name = "label4";
-            label4.Size = new Size(83, 29);
+            label4.Size = new Size(87, 54);
             label4.TabIndex = 16;
             label4.Text = "Login";
             // 
@@ -154,6 +154,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(11, 19, 43);
             ClientSize = new Size(783, 429);
+            Controls.Add(pictureBox2);
             Controls.Add(label4);
             Controls.Add(linkcadastro);
             Controls.Add(label3);
@@ -162,7 +163,6 @@
             Controls.Add(txtemail);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
