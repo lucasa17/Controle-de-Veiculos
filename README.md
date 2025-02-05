@@ -1,5 +1,5 @@
 <h1 align="center">Revendedora LL</h1>
-<h3 align='center'>Sistemas desenvolvido em C# conectado com Banco de Dados !</h2>
+<h2 align='center'>Sistema desenvolvido em C# conectado a um Banco de Dados !</h2>
 
 <h4>Linguagens Utilizadas:</h3>
 - C#
