@@ -251,8 +251,8 @@ namespace Revendedora
             int linha = gridveiculos.CurrentRow.Index;
             int id = Convert.ToInt32(gridveiculos.Rows[linha].Cells["idVeiculo"].Value.ToString());
 
-            DialogResult resposta = MessageBox.Show("Tem certeza que deseja deletar esse veículo?",
-                "Remover Veículo", MessageBoxButtons.OKCancel);
+            DialogResult resposta = MessageBox.Show("Tem certeza que deseja deletar esse veÃ­culo?",
+                "Remover VeÃ­culo", MessageBoxButtons.OKCancel);
 
 
             if (resposta == DialogResult.OK)
@@ -265,7 +265,7 @@ namespace Revendedora
                 if (retorno == true)
                 {
 
-                    MessageBox.Show("Veículo deletado com sucesso!");
+                    MessageBox.Show("VeÃ­culo deletado com sucesso!");
                     listaConectaVeiculo();
 
                 }

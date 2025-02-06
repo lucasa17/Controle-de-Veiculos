@@ -28,7 +28,13 @@ CREATE TABLE IF NOT EXISTS `empresa` (
   PRIMARY KEY (`idEmpresa`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+<<<<<<< HEAD
 -- Exportação de dados foi desmarcado.
+=======
+-- Copiando dados para a tabela revendedora.empresa: 1 rows
+/*!40000 ALTER TABLE `empresa` DISABLE KEYS */;
+/*!40000 ALTER TABLE `empresa` ENABLE KEYS */;
+>>>>>>> 7a82b3b3288819468abdde4a83c230984eb2fffe
 
 -- Copiando estrutura para tabela revendedora.marcas
 CREATE TABLE IF NOT EXISTS `marcas` (
@@ -37,7 +43,13 @@ CREATE TABLE IF NOT EXISTS `marcas` (
   PRIMARY KEY (`idMarca`)
 ) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+<<<<<<< HEAD
 -- Exportação de dados foi desmarcado.
+=======
+-- Copiando dados para a tabela revendedora.marcas: 4 rows
+/*!40000 ALTER TABLE `marcas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `marcas` ENABLE KEYS */;
+>>>>>>> 7a82b3b3288819468abdde4a83c230984eb2fffe
 
 -- Copiando estrutura para procedure revendedora.sp_alteraVeiculo
 DELIMITER //
@@ -201,9 +213,15 @@ CREATE TABLE IF NOT EXISTS `veiculos` (
   `status` bit(1) NOT NULL,
   PRIMARY KEY (`idVeiculo`),
   UNIQUE KEY `placa` (`placa`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Exportação de dados foi desmarcado.
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Copiando dados para a tabela revendedora.veiculos: ~6 rows (aproximadamente)
+>>>>>>> 7a82b3b3288819468abdde4a83c230984eb2fffe
 
 -- Copiando estrutura para tabela revendedora.vendas
 CREATE TABLE IF NOT EXISTS `vendas` (
