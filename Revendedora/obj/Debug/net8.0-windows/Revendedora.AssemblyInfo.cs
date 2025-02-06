@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Revendedora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b28de01c2c7d073ca436e4dd50c9167caee36a9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8d43cc0886c72a5f72e6b354cb47a69781c5d7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Revendedora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Revendedora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

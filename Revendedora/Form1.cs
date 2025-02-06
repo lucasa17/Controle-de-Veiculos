@@ -129,14 +129,18 @@ namespace Revendedora
 
             tabelaDados = conexao.listaMarcas();
 
+
+            //Combobox cadastro
             intmarca.DataSource = tabelaDados;
-            intmarca.DisplayMember = "nome";
+            intmarca.DisplayMember = "Marcas";
             intmarca.ValueMember = "idMarca";
 
+            //Combobox alterar
             intalteramarca.DataSource = tabelaDados;
-            intalteramarca.DisplayMember = "nome";
+            intalteramarca.DisplayMember = "Marcas";
             intalteramarca.ValueMember = "idMarca";
 
+            //Grid Marcas
             gridmarcas.DataSource = tabelaDados;
             gridmarcas.Columns["idMarca"].Visible = false;
 
@@ -186,7 +190,9 @@ namespace Revendedora
             txtmarca.Focus();
 
         }
-        private void button2_Click_1(object sender, EventArgs e)
+
+
+        private void botaoAdicionaMarca_Click_1(object sender, EventArgs e)
         {
 
             conectaBanco conexao = new conectaBanco();
@@ -370,7 +376,7 @@ namespace Revendedora
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void botaovenda_Click(object sender, EventArgs e)
         {
 
             conectaBanco conexao = new conectaBanco();
@@ -415,7 +421,7 @@ namespace Revendedora
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void botaoDeletaMarca_Click(object sender, EventArgs e)
         {
 
             int linha = gridmarcas.CurrentRow.Index;
@@ -450,7 +456,7 @@ namespace Revendedora
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void botaoDeletaVenda_Click(object sender, EventArgs e)
         {
 
             int linha = gridvendas.CurrentRow.Index;
@@ -482,6 +488,16 @@ namespace Revendedora
                 }
 
             }
+        }
+
+        private void txtplaca_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void intmarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -78,22 +78,22 @@
             label11 = new Label();
             tabPage6 = new TabPage();
             label24 = new Label();
-            button1 = new Button();
+            botaovenda = new Button();
             decvalvenda = new TextBox();
             label23 = new Label();
             txtnomecomp = new TextBox();
             maskedTextBox4 = new MaskedTextBox();
             label10 = new Label();
             tabPage5 = new TabPage();
-            button4 = new Button();
-            label21 = new Label();
             gridmarcas = new DataGridView();
-            button2 = new Button();
+            botaoDeletaMarca = new Button();
+            label21 = new Label();
+            botaoAdicionaMarca = new Button();
             txtmarca = new TextBox();
             label8 = new Label();
             label6 = new Label();
             tabPage4 = new TabPage();
-            button8 = new Button();
+            botaoDeletaVenda = new Button();
             label25 = new Label();
             txtcomprador = new TextBox();
             gridvendas = new DataGridView();
@@ -220,6 +220,7 @@
             intmarca.Name = "intmarca";
             intmarca.Size = new Size(207, 25);
             intmarca.TabIndex = 17;
+            intmarca.SelectedIndexChanged += intmarca_SelectedIndexChanged;
             // 
             // intano
             // 
@@ -242,6 +243,7 @@
             txtplaca.Name = "txtplaca";
             txtplaca.Size = new Size(236, 25);
             txtplaca.TabIndex = 13;
+            txtplaca.TextChanged += txtplaca_TextChanged;
             // 
             // maskedTextBox3
             // 
@@ -614,7 +616,7 @@
             // tabPage6
             // 
             tabPage6.Controls.Add(label24);
-            tabPage6.Controls.Add(button1);
+            tabPage6.Controls.Add(botaovenda);
             tabPage6.Controls.Add(decvalvenda);
             tabPage6.Controls.Add(label23);
             tabPage6.Controls.Add(txtnomecomp);
@@ -639,18 +641,18 @@
             label24.TabIndex = 22;
             label24.Text = "Venda seu veículo";
             // 
-            // button1
+            // botaovenda
             // 
-            button1.BackColor = Color.Transparent;
-            button1.Cursor = Cursors.Hand;
-            button1.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(254, 203);
-            button1.Name = "button1";
-            button1.Size = new Size(102, 36);
-            button1.TabIndex = 21;
-            button1.Text = "Vender";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            botaovenda.BackColor = Color.Transparent;
+            botaovenda.Cursor = Cursors.Hand;
+            botaovenda.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            botaovenda.Location = new Point(254, 203);
+            botaovenda.Name = "botaovenda";
+            botaovenda.Size = new Size(102, 36);
+            botaovenda.TabIndex = 21;
+            botaovenda.Text = "Vender";
+            botaovenda.UseVisualStyleBackColor = false;
+            botaovenda.Click += botaovenda_Click;
             // 
             // decvalvenda
             // 
@@ -697,9 +699,9 @@
             // tabPage5
             // 
             tabPage5.Controls.Add(gridmarcas);
-            tabPage5.Controls.Add(button4);
+            tabPage5.Controls.Add(botaoDeletaMarca);
             tabPage5.Controls.Add(label21);
-            tabPage5.Controls.Add(button2);
+            tabPage5.Controls.Add(botaoAdicionaMarca);
             tabPage5.Controls.Add(txtmarca);
             tabPage5.Controls.Add(label8);
             tabPage5.Controls.Add(label6);
@@ -709,27 +711,6 @@
             tabPage5.TabIndex = 3;
             tabPage5.Text = "Marcas";
             tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(453, 237);
-            button4.Name = "button4";
-            button4.Size = new Size(100, 33);
-            button4.TabIndex = 6;
-            button4.Text = "Deletar";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label21.Location = new Point(403, 19);
-            label21.Name = "label21";
-            label21.Size = new Size(197, 45);
-            label21.TabIndex = 5;
-            label21.Text = "Marcas no sistema";
             // 
             // gridmarcas
             // 
@@ -741,16 +722,37 @@
             gridmarcas.TabIndex = 4;
             gridmarcas.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // button2
+            // botaoDeletaMarca
             // 
-            button2.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(149, 160);
-            button2.Name = "button2";
-            button2.Size = new Size(100, 33);
-            button2.TabIndex = 3;
-            button2.Text = "Adicionar";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click_1;
+            botaoDeletaMarca.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            botaoDeletaMarca.Location = new Point(453, 237);
+            botaoDeletaMarca.Name = "botaoDeletaMarca";
+            botaoDeletaMarca.Size = new Size(100, 33);
+            botaoDeletaMarca.TabIndex = 6;
+            botaoDeletaMarca.Text = "Deletar";
+            botaoDeletaMarca.UseVisualStyleBackColor = true;
+            botaoDeletaMarca.Click += botaoDeletaMarca_Click;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Javanese Text", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.Location = new Point(403, 19);
+            label21.Name = "label21";
+            label21.Size = new Size(197, 45);
+            label21.TabIndex = 5;
+            label21.Text = "Marcas no sistema";
+            // 
+            // botaoAdicionaMarca
+            // 
+            botaoAdicionaMarca.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            botaoAdicionaMarca.Location = new Point(149, 160);
+            botaoAdicionaMarca.Name = "botaoAdicionaMarca";
+            botaoAdicionaMarca.Size = new Size(100, 33);
+            botaoAdicionaMarca.TabIndex = 3;
+            botaoAdicionaMarca.Text = "Adicionar";
+            botaoAdicionaMarca.UseVisualStyleBackColor = true;
+            botaoAdicionaMarca.Click += botaoAdicionaMarca_Click_1;
             // 
             // txtmarca
             // 
@@ -782,7 +784,7 @@
             // 
             // tabPage4
             // 
-            tabPage4.Controls.Add(button8);
+            tabPage4.Controls.Add(botaoDeletaVenda);
             tabPage4.Controls.Add(label25);
             tabPage4.Controls.Add(txtcomprador);
             tabPage4.Controls.Add(gridvendas);
@@ -793,16 +795,16 @@
             tabPage4.Text = "Vendas";
             tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // botaoDeletaVenda
             // 
-            button8.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.Location = new Point(519, 30);
-            button8.Name = "button8";
-            button8.Size = new Size(100, 33);
-            button8.TabIndex = 10;
-            button8.Text = "Deletar";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
+            botaoDeletaVenda.Font = new Font("Segoe UI", 12.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            botaoDeletaVenda.Location = new Point(519, 30);
+            botaoDeletaVenda.Name = "botaoDeletaVenda";
+            botaoDeletaVenda.Size = new Size(100, 33);
+            botaoDeletaVenda.TabIndex = 10;
+            botaoDeletaVenda.Text = "Deletar";
+            botaoDeletaVenda.UseVisualStyleBackColor = true;
+            botaoDeletaVenda.Click += botaoDeletaVenda_Click;
             // 
             // label25
             // 
@@ -1001,7 +1003,7 @@
         private TextBox txtcor;
         private TabPage tabPage5;
         private Label label6;
-        private Button button2;
+        private Button botaoAdicionaMarca;
         private TextBox txtmarca;
         private Label label8;
         private Button button3;
@@ -1045,15 +1047,15 @@
         private Label label10;
         private TabPage tabPage4;
         private Label label24;
-        private Button button1;
+        private Button botaovenda;
         private TextBox decvalvenda;
         private Label label23;
         private LinkLabel linkLabel4;
         private Label label25;
         private TextBox txtcomprador;
         private DataGridView gridvendas;
-        private Button button4;
-        private Button button8;
+        private Button botaoDeletaMarca;
+        private Button botaoDeletaVenda;
         private Label label22;
     }
 }

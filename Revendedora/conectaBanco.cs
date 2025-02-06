@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using MySql.Data.MySqlClient;
 using System.Security.Cryptography.X509Certificates;
+using Mysqlx.Crud;
 
 
 namespace Revendedora
@@ -269,35 +270,55 @@ namespace Revendedora
             {
                 conexao.Open();
 
-                    MySqlCommand cmd = new MySqlCommand("sp_insereEmpresa", conexao);
-                    cmd.CommandType = CommandType.StoredProcedure;
+                MySqlCommand check = new MySqlCommand("sp_cadastroCheck", conexao);
+                check.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.AddWithValue("nome", novoUser.Nome);
-                    cmd.Parameters.AddWithValue("email", novoUser.Email);
-                    cmd.Parameters.AddWithValue("senha", senha);
+                check.Parameters.AddWithValue("user", novoUser.Email);
+
+                check.ExecuteNonQuery();
 
 
-                cmd.ExecuteNonQuery();
+                MySqlDataAdapter da = new MySqlDataAdapter(check);
 
-                return true;
+                DataSet ds = new DataSet();// tabela virtual
 
+                da.Fill(ds); //passando os valores consultados para o DataSet
+
+                if (ds.Tables[0].Rows.Count == 0)
+                {
+                    MySqlCommand inserir = new MySqlCommand("sp_insereEmpresa", conexao);
+                    inserir.CommandType = CommandType.StoredProcedure;
+
+                    inserir.Parameters.AddWithValue("nome", novoUser.Nome);
+                    inserir.Parameters.AddWithValue("email", novoUser.Email);
+                    inserir.Parameters.AddWithValue("senha", senha);
+
+
+                    inserir.ExecuteNonQuery();
+
+                    return true;
+
+                }
+                else
+                {
+
+                    return false;
+
+                }
             }
-
-            catch (MySqlException erro)
+            finally
             {
 
-                mensagem = erro.Message;
-                return false;
-
+                conexao.Close();
             }
-            
-
+           
         }
 
 
         public bool verifica(string email, string pass)
         {
             string senha = biblioteca.makeHash(pass);
+
             MySqlCommand cmd = new MySqlCommand("sp_login", conexao);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("user", email);

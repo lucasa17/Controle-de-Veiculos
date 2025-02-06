@@ -59,9 +59,19 @@ namespace Revendedora
 
                 MessageBox.Show("Login incorreto!");
 
+                limpaCampos();
+
             }
 
         }
+
+
+        void limpaCampos()
+        {
+            txtemail.Text = "";
+            txtsenha.Text = "";
+        }
+
 
         private void linkcadastro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

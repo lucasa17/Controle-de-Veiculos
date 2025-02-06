@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\conectabanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\conectabanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|solutionrelative:revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16491D36-54A4-4801-84F6-87BAA7B6A5AF}|Revendedora\\Revendedora.csproj|c:\\users\\41279517883\\source\\repos\\revendedora\\revendedora\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +50,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\veiculo.cs",
+              "RelativeDocumentMoniker": "Revendedora\\veiculo.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\veiculo.cs",
+              "RelativeToolTip": "Revendedora\\veiculo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:47:08.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "marca.cs",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\marca.cs",
+              "RelativeDocumentMoniker": "Revendedora\\marca.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\marca.cs",
+              "RelativeToolTip": "Revendedora\\marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:47:02.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs",
+              "RelativeDocumentMoniker": "Revendedora\\Form1.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs*",
+              "RelativeToolTip": "Revendedora\\Form1.cs*",
+              "ViewState": "AgIAANkBAAAAAAAAAAAqwPMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:07:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Login.cs",
+              "RelativeDocumentMoniker": "Revendedora\\Login.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Login.cs",
+              "RelativeToolTip": "Revendedora\\Login.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:42:48.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Login.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Login.cs",
               "RelativeDocumentMoniker": "Revendedora\\Login.cs",
               "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Login.cs [Projeto]",
               "RelativeToolTip": "Revendedora\\Login.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:23:54.145Z",
+              "WhenOpened": "2025-02-06T11:42:46.732Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cadastro.cs [Projeto]",
+              "DocumentIndex": 5,
+              "Title": "conectaBanco.cs",
+              "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\conectaBanco.cs",
+              "RelativeDocumentMoniker": "Revendedora\\conectaBanco.cs",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\conectaBanco.cs",
+              "RelativeToolTip": "Revendedora\\conectaBanco.cs",
+              "ViewState": "AgIAADcBAAAAAAAAAAAAwEABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:22:16.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cadastro.cs",
               "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Cadastro.cs",
               "RelativeDocumentMoniker": "Revendedora\\Cadastro.cs",
-              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Cadastro.cs [Projeto]",
-              "RelativeToolTip": "Revendedora\\Cadastro.cs [Projeto]",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Cadastro.cs",
+              "RelativeToolTip": "Revendedora\\Cadastro.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wCgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:23:02.858Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-02-06T11:21:55.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -58,8 +144,8 @@
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs",
               "RelativeDocumentMoniker": "Revendedora\\Form1.cs",
-              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Revendedora\\Form1.cs [Projeto]",
+              "ToolTip": "C:\\Users\\41279517883\\source\\repos\\Revendedora\\Revendedora\\Form1.cs [Projeto]*",
+              "RelativeToolTip": "Revendedora\\Form1.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:12:29.162Z",
               "EditorCaption": " [Projeto]"

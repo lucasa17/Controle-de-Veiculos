@@ -17,6 +17,15 @@ namespace Revendedora
             InitializeComponent();
         }
 
+
+        void limpaCampos()
+        {
+            txtnomeemp.Text = "";
+            txtemailemp.Text = "";
+            txtsenhaemp.Text = "";
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -29,28 +38,39 @@ namespace Revendedora
             novoUser.Senha = txtsenhaemp.Text;
 
 
-            bool retorno = conexao.cadastro(novoUser);
-
-
-            if (retorno == false)
+            if (novoUser.Nome == "" || novoUser.Email == "" || novoUser.Senha == "")
             {
 
-                MessageBox.Show("Houve um erro ao cadastrar-se!");
+                MessageBox.Show("Complete todos os campos");
+
 
             }
             else
             {
 
-                Login formulario = new Login();
+                bool retorno = conexao.cadastro(novoUser);
 
-                this.Hide();
 
-                formulario.ShowDialog();
+                if (retorno == false)
+                {
 
-                this.Close();
+                    MessageBox.Show("Úsuario já existente");
 
+                    limpaCampos();
+                }
+                else
+                {
+
+                    Login formulario = new Login();
+
+                    this.Hide();
+
+                    formulario.ShowDialog();
+
+                    this.Close();
+
+                }
             }
-
         }
 
         private void linklogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
